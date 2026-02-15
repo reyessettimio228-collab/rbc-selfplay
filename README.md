@@ -6,3 +6,8 @@ Search-Guided Self-Play Learning under Partial Observability: Reconnaissance Bli
 ```bash
 pip install -r requirements.txt
 
+## Run
+
+Open `notebooks/rbc_selfplay.ipynb` with Jupyter or VSCode and run all cells.
+
+
