@@ -1,3 +1,5 @@
+import torch
+import chess
 
 PIECE_TYPES_6 = ["P", "N", "B", "R", "Q", "K"]
 EMPTY = "EMPTY"
