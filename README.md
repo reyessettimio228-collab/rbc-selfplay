@@ -114,6 +114,33 @@ Win rate:
 
 ![AZ80 Winrate](results/plots/AZ80/winrate.png)
 
+## Final Evaluation Results
+
+The final evaluation was performed on 50 games per matchup.
+
+| Matchup | Wins | Losses | Draws |
+|---|---:|---:|---:|
+| AZ40 vs AttackerBot | 0 | 1 | 49 |
+| AZ80 vs AttackerBot | 0 | 0 | 50 |
+| AZ40 vs AZ80 | 0 | 0 | 50 |
+
+These results show that both trained agents produced a very high number of draws under the standard RBC move limit, and that increasing the self-play search budget from 40 to 80 simulations did not produce a measurable improvement in final match outcomes.
+
+## Agent Overview
+
+The overall decision pipeline is:
+
+```text
+Belief State
+    ↓
+Feature Tensor (15×8×8)
+    ↓
+Policy / Value Network
+    ↓
+Root PUCT Search
+    ↓
+Selected Move
+
 ## License
 
 See LICENSE.
