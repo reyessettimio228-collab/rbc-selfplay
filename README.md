@@ -1,5 +1,7 @@
 # rbc-selfplay
 
+Master's Thesis – University of Turin
+
 Search-guided self-play learning for Reconnaissance Blind Chess (RBC), a partially observable chess variant implemented with the reconchess framework.
 
 This repository contains code developed for a Master's thesis on reinforcement learning under partial observability using an AlphaZero-inspired training pipeline.
