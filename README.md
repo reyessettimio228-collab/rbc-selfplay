@@ -77,6 +77,43 @@ Large training artifacts such as checkpoints, logs and run folders are excluded 
 
 The repository includes both the modular implementation (`src/`) and the integrated experimental script used during development (`rbc_selfplay.py`).
 
+
+## Training Results
+
+### AZ40 Training
+
+Elo progression:
+
+![AZ40 Elo](results/plots/AZ40/elo.png)
+
+Training loss:
+
+![AZ40 Loss](results/plots/AZ40/loss.png)
+
+Win rate:
+
+![AZ40 Winrate](results/plots/AZ40/winrate.png)
+
+---
+
+### AZ80 Training
+
+Buffer size during training:
+
+![AZ80 Buffer](results/plots/AZ80/buffer_size.png)
+
+Elo progression:
+
+![AZ80 Elo](results/plots/AZ80/elo.png)
+
+Training loss:
+
+![AZ80 Loss](results/plots/AZ80/losses.png)
+
+Win rate:
+
+![AZ80 Winrate](results/plots/AZ80/winrate.png)
+
 ## License
 
 See LICENSE.
